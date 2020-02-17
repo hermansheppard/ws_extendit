@@ -1,0 +1,1 @@
+var survey_app = {};

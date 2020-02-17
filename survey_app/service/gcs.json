@@ -1,0 +1,151 @@
+{
+  "name" : "gcs",
+  "props" : {
+    "authentication" : {
+    "type": "service_account",
+    "project_id": "project-trillort",
+    "private_key_id": "7323e6d9ff8289b45b1e0e85ddc500afa9169407",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDsfc+OwkPhpkeO\nWwmgyNIVmDOIO0uYpohF0RcbQPRrW/jSLcWF2iwvcKM8OUvfReuEsK2PejA1ieEO\nwJ8dACD181QSljaqzp6ZBTL380osB8HjQ6oQl3KxsdeS0LFz57mqO85YcJ6qBic4\n5AY8A7aytwAmK1APJzk9pIGAJo8wgly9Or/edB0xLwW1RANEAFEO6u6eZ3VO1/L7\ngu2EmbwuYrnZ3gvb8EPQIST22+ryvf3GSrRPISEp+41smEfWZalAbJmgfcd1MTXl\niBi4dzL1FPII3nHsuvxySErwAo1x4ZJ76RywayVaxjmQbzqP5I/y1NrCuMO9WWzq\nurMPXgDvAgMBAAECggEAH1jh3Ut00gFHdOAuW4ijCEe/dOxfLeHNKGv5wxwOCfkL\n91gn2YE84CDvEjmKDBNpj5IXv2/z2fTnxxvTO3Xb6J4TY89TebqfnSrqQaGXEFUK\n50P90+svQcyQBZ7yFqn9m0oIJQLwlRrxsgHPrb7URcYqF+Uf3JJXbQtUOxdhXY14\n3Se5SMt7eAnfqjHLqSj0D3oOWvW+ldbFwalktsL8HKoN9B4L5+VDej4Q20jC81OW\nONdGbhHNUHZlq1vsg2aZxMnj1em1JBdU+6D5sb7LbtLrs+f8Wy+YXumZlsgy13MN\n9P9dOAyTKzh2StFyTkyHbXuId7fNic4SEGxLV4sAWQKBgQD7HHY0oVAqoFpYxTY8\nciAowjek9CH+Vp7qxvjSvoGrtLMoERjqy0fFKvecil55kK4dqkFj/cQTJJF5btNg\n7I2QL8P2s9oVYv193Snltm6lStL3qiFvhLKBaBaAJi4REJi/oT0zg2yJ7q0ylI0o\n3FaumFbOX3VdSnoKiZUgUyLidQKBgQDxGHv6PAcHxK/J529pqyoPWxt/CJmGTlJU\nIoeADifGdW/02uTHTaAONG0S3D+6K3CExX/zAf7rHyZLdbEaNcD1oahpZ/PZviQ+\nzAulaoRoXj705NU5txnKzF5k177s532mcUATgtC3isG5Wny//Y56TIZrTRCd83Vy\nKRXnBbehUwKBgQCWLuOTfpcPp2/hf7F8XVVWizH0ef6Kuwu4pt/SSxYKt7weznr0\nkjeOeLA285qlYh6Ap38Mao2GVWycD+hkI5ZXEfpF5jMcb2Pkjw2r0XxDZ4jdjucI\nZ3jLZJFwe2U5149DrQ+Ja6TSqej0Q1xZf85oBbyFGRp8fTqYasjB2HcYsQKBgQC8\nPTKnSPDwRsg9qx5Y8ZQwUyEfyTYdH8+18xO6jtLNZ+nW0oVnexspnBNBc4eqMrpy\nX8WrlXZUW4jJyAVUAn47ClH0on5JFuUzxpqdN5JT7qnXCUfV/Tj9Fx3oPG7Mh12a\nc7fkw/F0LLlen+DhAfaZVGBrLMt5l5muXZfFPbiHEwKBgQD62xZwrWsD/rzMLyua\nM9nrh2y8A4e+hKIyPfup1QeJrRSLAOK7v3tCaf0cnCmetLx0M1ay8VnrsHUhAar7\nFObuE0uRxcktnI8aEXmerDlpDVEFi8IOY1bYD1HG3K1rhknqzWbHZkQfFV1nDDio\nJJ8sOSEEqiSYMfuiF4NPCfFwCQ==\n-----END PRIVATE KEY-----\n",
+    "client_email": "trillort-storage-svcacc@project-trillort.iam.gserviceaccount.com",
+    "client_id": "117306535409830567112",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/trillort-storage-svcacc%40project-trillort.iam.gserviceaccount.com",
+      "scope" : "https://www.googleapis.com/auth/cloud-platform"
+    },
+    "grant_type" : "custom"
+  },
+  "type" : "externalService",
+  "useOAuth" : true,
+  "docUrl" : "/_model/api-service/template1/gcs",
+  "routeSpecs" : [
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}/acl",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}/acl/{entity}",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}/defaultObjectAcl",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}/defaultObjectAcl/{entity}",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}/iam",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}/iam/testPermissions",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}/lockRetentionPolicy",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}/notificationConfigs",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}/notificationConfigs/{notification}",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}/o",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}/o/watch",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}/o/{object}",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}/o/{object}/acl",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}/o/{object}/acl/{entity}",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}/o/{object}/iam",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}/o/{object}/iam/testPermissions",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{destinationBucket}/o/{destinationObject}/compose",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{sourceBucket}/o/{sourceObject}/copyTo/b/{destinationBucket}/o/{destinationObject}",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{sourceBucket}/o/{sourceObject}/rewriteTo/b/{destinationBucket}/o/{destinationObject}",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/channels/stop",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/projects/{projectId}/hmacKeys",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/projects/{projectId}/hmacKeys/{accessId}",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/projects/{projectId}/serviceAccount",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    }
+  ],
+  "useHttps" : true,
+  "provider" : "gcp_service_account"
+}

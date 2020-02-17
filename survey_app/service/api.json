@@ -1,0 +1,46 @@
+{
+"name" : "api",
+"props" : {
+  "authentication" : {
+    "type" : "service_account",
+    "project_id" : "project-trillort",
+    "private_key_id" : "279d886c8586c131e221624bce04b15054af294f",
+    "private_key" : "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDA75UBKDI2ikqZ\nSvyU8BJxgHDUg9j1pkL/CzITBFfJDvun0Ev0votK5fHyH7vNrxU/Pvd1fg6ULSHu\n4L3CpUItmFQI2ifmuUD3rqFUGafl8l4KoIzgJfGOnu4XCt3IDmZUqNOfTR4caVzz\nVXWZP/6G7EvISH0ObJFuA0KTZW4m82vfN3J4Ymce3FikmS5dlNsKqLtZ6USG/W7Q\nguWSV1FJBkCMPAaSv2z2rlSNMTy+9Gyeo5qyBAi5PXHTJ660uoBAngNSrP/I80nu\nThFmQpZRtx9CV8r7xHdZoA7d67Ii1nBkt4Acs21JP46EWAb0n3GT0JioeDnfw2wd\nAuaLwm6zAgMBAAECggEAHM6o94yXkr/V9krVU9ep/qXS3ahMvhZJF+kFXQQ0/KGZ\naavBlkAtGXh5RlGpVO4OGhdovh5IRvpGKsixDLMSzS6wEsegADnWPXp8Psu7NKua\nPF6kf4NVge9bqrfF+EJOJ9iICy0UkIwa2NUAbhVkB6Pt3MXAsQ/81umdsyxd5MAI\nxqd+0rkMGnubELuwvnglvvKwFSZ7ywjp6Z4N+Yzp2Vd+hXiKNiSQA488zHSC7kjo\nHEsPltcCltvYjFK2C4uAKeQybc0ji0GHAgXNcGz0x0Y+fac85jjgDpsjaXRLxGab\nFSPQ/9JYohqK3fUjh/7sYhIfm4WUgRNJjTP19MKYQQKBgQD/Mg8cAEWJbi/FRXtk\nogIr12WmrL52v0eZgq/eWE388z05C2sFupNcpk6wIjJF8dKEkirRrS3veYjRV9rw\nvjPeihXl4PwD50N/CDztbloZMOXYNpq1L8GQqYc3Enmqq/9O6yulL8dXZ5L1cw2S\nn4NLxjujk4rp5UNego5DABZqOwKBgQDBi0eofSOhAewXJbugPHlatFl3MBUeCgCz\nTCad0r6gqwCHxkGlYg7zUt6scuowvLUL4Ew+atVdFKHXRu0aYGM74/lDqFP84gHq\naLbYQDDoUKGv3o5Pqb7bMLqA9SMg8eCY6voYthHZ1m3I4LwYqtsVI2Vnas+Fu3BS\nhIKULbhN6QKBgCC+cpPcMQ/uNHDydl+2LeMkMyXMum+QIYa/7wLvf6o6J5vfLC9C\n/k+AA060RJEW8zURcC8RMnistnJt/GixbwRZ4W9qi8uQa+erze2FIEhlLsisUPN4\nmjSOnAvj8fqFMTAWGraKR+CeKIwX5CDxGK6rU9GsR8G1KgzBYbGVHEsrAoGAQCiI\nl5zsG6qEdePnP6XsYJoacj05Mt0EAGvE/VpoIOCu61NYXZeU9ypIcIgjhAZ6SbaP\n770Af7ugLrnvTWgYXTkkXz5EoTbWhbsyqZsV210nTCKNsHDHuOd9W9RnUbt8xZRX\nVau9XSYM/KMrF05EE8zJB7BLnLxW7rPIiZBiYUkCgYB4vwVCSOtGMa0qpZIVoWDz\ndheJBtNzh/WVTI7agmvHfQT6Axz2aIT+RB3crOrsyWo57Yg9VmNcxhh/TPmIWuja\nWsQlLw/bmI17VLBPfzGLFieNFJDVbrWMWXox0/8gqJXoBYjMhv8XCLZrdMYHrTc5\nxlc7y3NfvlSAenmhNMUCFg==\n-----END PRIVATE KEY-----\n",
+    "client_email" : "trillo-service-account@project-trillort.iam.gserviceaccount.com",
+    "client_id" : "100990241050013237266",
+    "auth_uri" : "https://accounts.google.com/o/oauth2/auth",
+    "token_uri" : "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url" : "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url" : "https://www.googleapis.com/robot/v1/metadata/x509/trillo-service-account%40project-trillort.iam.gserviceaccount.com",
+    "scope": "https://www.googleapis.com/auth/cloud-language"
+  },
+  "grant_type" : "custom"
+},
+"type" : "externalService",
+"useOAuth" : true,
+"docUrl" : "/_model/api-service/template1/api",
+"routeSpecs" : [
+  {
+    "path" : "/svc/template1/api/v1/documents:analyzeSyntax",
+    "location" : "https://language.googleapis.com",
+    "secure" : true
+  },
+  {
+    "path" : "/svc/template1/api/v1/documents:analyzeSentiment",
+    "location" : "https://language.googleapis.com",
+    "secure" : true
+  },
+  {
+    "path" : "/svc/template1/api/v1/documents:analyzeEntitySentiment",
+    "location" : "https://language.googleapis.com",
+    "secure" : true
+  },
+  {
+    "path" : "/svc/template1/api/v1/documents:classifyText",
+    "location" : "https://language.googleapis.com",
+    "secure" : true
+  }
+],
+"useHttps" : true,
+"provider" : "gcp_service_account"
+}

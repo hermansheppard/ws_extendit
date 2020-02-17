@@ -1,0 +1,51 @@
+[
+  {
+    "appTemplate" : "webapp",
+    "blank" : false,
+    "description" : "User Management",
+    "displayName" : "User Management",
+    "htmlHeadTitle" : "User Management",
+    "keywords" : "Authentication, Trillo, User Management",
+    "linkedApp" : "shared",
+    "metaDataPubliclyViewable" : false,
+    "name" : "UM",
+    "requiredRoles" : "admin",
+    "requiresLogin" : true,
+    "trilloVersion" : "1.0",
+    "usingEnumsCatalog" : true,
+    "usingStringFiles" : true,
+    "usingViewSpecs" : false
+  },
+  {
+    "blank" : false,
+    "description" : "Authentication",
+    "displayName" : "Authentication",
+    "htmlHeadTitle" : "Authentication",
+    "keywords" : "Cloud, JavaScript, Framework, Services, Micro, Prototype",
+    "linkedApp" : "shared",
+    "name" : "auth",
+    "trilloVersion" : "1.0",
+    "usingEnumsCatalog" : true,
+    "usingStringFiles" : true,
+    "usingViewSpecs" : false
+  },
+  {
+    "appTemplate" : "webapp",
+    "blank" : false,
+    "defaultPage" : true,
+    "description" : "Site Survey application",
+    "displayName" : "Site Survey",
+    "htmlHeadTitle" : "Site Survey",
+    "keywords" : "survey site",
+    "linkedApp" : "shared",
+    "metaDataPubliclyViewable" : false,
+    "name" : "survey_app",
+    "requiredRoles" : "user",
+    "requiresLogin" : true,
+    "trilloVersion" : "2.0",
+    "useTestData" : true,
+    "usingEnumsCatalog" : true,
+    "usingStringFiles" : true,
+    "usingViewSpecs" : true
+  }
+]

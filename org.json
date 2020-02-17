@@ -1,0 +1,16 @@
+{
+  "authChoice" : "1",
+  "credentials" : "[]",
+  "gitConnected" : true,
+  "logos" : {
+    "logoStamp" : "/ws_extendit/shared/static/img/logo-stamp.png"
+  },
+  "name" : "ws_extendit",
+  "rtChoice" : "gce",
+  "rtServerUrlDev" : "http://34.89.39.250",
+  "rtServerUrlInt" : "http://34.89.39.250",
+  "rtServerUrlProduction" : "http://34.89.39.250",
+  "rtServerUrlQA" : "https://rt.trillo.io",
+  "rtServerUrlStaging" : "http://34.89.39.250",
+  "rtUrl" : "http://34.89.39.250"
+}
